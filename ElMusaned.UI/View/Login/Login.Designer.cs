@@ -28,12 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.ultraButton1 = new Infragistics.Win.Misc.UltraButton();
+            this.SuspendLayout();
+            // 
+            // ultraButton1
+            // 
+            this.ultraButton1.Location = new System.Drawing.Point(141, 82);
+            this.ultraButton1.Name = "ultraButton1";
+            this.ultraButton1.Size = new System.Drawing.Size(153, 23);
+            this.ultraButton1.TabIndex = 0;
+            this.ultraButton1.Text = "ultraButton1";
+            // 
+            // Login
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ultraButton1);
+            this.Name = "Login";
             this.Text = "Login";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private Infragistics.Win.Misc.UltraButton ultraButton1;
     }
 }
