@@ -1,0 +1,681 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutUs" xml:space="preserve">
+    <value>ماذا عنا</value>
+  </data>
+  <data name="About_Company" xml:space="preserve">
+    <value>شركة تك تاتش قام بإنشاء الشركة مجموعة متميزة من مهندسى الكمبيوتر ونظم المعلومات ذوى خبرة عريضة فى مجالي البرمجة و الإدارة المالية, تهدف شركة تك تاتش تقديم برمجيات عالية الجودة بالمقاييس العالمية للقطاعات المالية والتجارية في الوطن العربي و نظرا لخبراتنا الواسعة في مجال البرمجيات فقد وضعت الشركة في اعتبارها منذ بدء التخطيط لبرامجها ان تكون كافة برامج الشركة سهلة الإستخدام وتسمح بالتوسع والإمتداد مع زيادة وتوسع إحتياجات العملاء, تقدم الشركة كذلك خدمات الدعم الفني لعملائها . شركة تك تاتش دائما في خدمة عملائها و تسخر جميع طاقاتها وإمكانياتها وخبراتها فى مجال الإدارة المالية و البرمجيات لتقديم أفضل الخدمات. ذلك المزيج القيم من الخبرات والبرامج والأدوات يؤكد أنك باخيتارك شركة تك تاتش تكون قد استثمرت أموالك فى المكان الصحيح وأنك قد حققت المعادلة الصعبة في الموازنة بين الإحتياجات العالية والميزانية المخططة</value>
+  </data>
+  <data name="Access" xml:space="preserve">
+    <value>وصول</value>
+  </data>
+  <data name="Access_from_anywhere" xml:space="preserve">
+    <value>الوصول من اي مكان</value>
+  </data>
+  <data name="Accounting_Software" xml:space="preserve">
+    <value>هو برنامج محاسبي متكامل يساعدك هذا البرنامج علي اداره كافه المعاملات الماليه والمحاسبيه ومتابعتها من اي مكان في العالم بدون مشاكل</value>
+  </data>
+  <data name="Achievement" xml:space="preserve">
+    <value>التحصيل وتحليل الكفاءة الأساسي</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>الاكشن</value>
+  </data>
+  <data name="AddedSuccessfully" xml:space="preserve">
+    <value>تم الإضافة بنجاح.</value>
+  </data>
+  <data name="AddFailure" xml:space="preserve">
+    <value>حدث خطأ فى عملية الإضافة </value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>المدير المسئول في </value>
+  </data>
+  <data name="am" xml:space="preserve">
+    <value>صباحا</value>
+  </data>
+  <data name="Announcement_to_group" xml:space="preserve">
+    <value>إعلان للمجموعة</value>
+  </data>
+  <data name="Another_user_registered_with_arabic_name" xml:space="preserve">
+    <value>قد سجل مستخدم اخر قبلك بلحظات شركة تحمل نفس الاسم العربي</value>
+  </data>
+  <data name="Another_user_registered_with_english_name" xml:space="preserve">
+    <value>قد سجل مستخدم اخر قبلك بلحظات شركة تحمل نفس الاسم الانجليزي</value>
+  </data>
+  <data name="Another_user_registered_with_phone" xml:space="preserve">
+    <value>قد سجل مستخدم اخر قبلك بلحظات شركة تحمل نفس التليفون</value>
+  </data>
+  <data name="Any_Questions" xml:space="preserve">
+    <value>اي استفسارات ؟</value>
+  </data>
+  <data name="App_Description" xml:space="preserve">
+    <value>صفحة وصف التطبيق.</value>
+  </data>
+  <data name="App_Features" xml:space="preserve">
+    <value>مميزات التطبيق</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>عربي</value>
+  </data>
+  <data name="Area" xml:space="preserve">
+    <value>مكان</value>
+  </data>
+  <data name="Assets_Management" xml:space="preserve">
+    <value>يقوم هذا البرنامج باداره اصولك باستخدام عمليه اداره الاصول من البدايه اللي النهايه منذ الوقت الذي يتم فيه الشراء لاول مره الي فتره التهايه وهذا البرنامج يساعدك علي تتبع اصولك بشكل مستمر</value>
+  </data>
+  <data name="Attachements" xml:space="preserve">
+    <value>المرفقات</value>
+  </data>
+  <data name="BackToList" xml:space="preserve">
+    <value>الرجوع الي المجموعة</value>
+  </data>
+  <data name="Basic_competence_analysis" xml:space="preserve">
+    <value>تحليل الكفاءة الأساسي</value>
+  </data>
+  <data name="Basic_learning" xml:space="preserve">
+    <value>المواد الاساسية للتعليم /الدروس</value>
+  </data>
+  <data name="Basic_Menu" xml:space="preserve">
+    <value>القائمة الاساسية</value>
+  </data>
+  <data name="Basic_task" xml:space="preserve">
+    <value>المهمة الأساسية / الاختبار / النص</value>
+  </data>
+  <data name="Basic_Template" xml:space="preserve">
+    <value>نموزج اساسي</value>
+  </data>
+  <data name="business" xml:space="preserve">
+    <value>اصعد بعملك إلى آفاق جديدة باستخدام أدوات قوية وفعالة تعزز وتقوي عمليات عملك.</value>
+  </data>
+  <data name="BuyNow" xml:space="preserve">
+    <value>اشترك الآن</value>
+  </data>
+  <data name="Call_Us_Now" xml:space="preserve">
+    <value>تواصل معنا الان</value>
+  </data>
+  <data name="Care_Customer" xml:space="preserve">
+    <value>نحن نهتم بعملائنا</value>
+  </data>
+  <data name="Class_management" xml:space="preserve">
+    <value>الإدارة العليا</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>تعليق / مناقشة الإدارة</value>
+  </data>
+  <data name="CompanyCount" xml:space="preserve">
+    <value>عدد الشركات</value>
+  </data>
+  <data name="CompanyLink" xml:space="preserve">
+    <value>لينك الشركة</value>
+  </data>
+  <data name="Company_Search" xml:space="preserve">
+    <value>البحث عن شركة</value>
+  </data>
+  <data name="Company_was_created" xml:space="preserve">
+    <value>تم انشاء شركة</value>
+  </data>
+  <data name="Complete_Worksheets" xml:space="preserve">
+    <value>أوراق عمل كاملة</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>إتصل بنا</value>
+  </data>
+  <data name="ContactInfo" xml:space="preserve">
+    <value>بيانات الاتصال</value>
+  </data>
+  <data name="Controller" xml:space="preserve">
+    <value>الكنترولر</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>جميع الحقوق محفوظة</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>الدول</value>
+  </data>
+  <data name="cushions" xml:space="preserve">
+    <value>يمنحك المساند حريه الوصول اللي التطبيق من اي مكان وفي اي وقت ومن اي جهاز الان المساند يعتمد علي السحابه.</value>
+  </data>
+  <data name="Custmer_Report" xml:space="preserve">
+    <value>تقرير العميل </value>
+  </data>
+  <data name="CustomerCode" xml:space="preserve">
+    <value>كود العميل</value>
+  </data>
+  <data name="CustomerList" xml:space="preserve">
+    <value>العملاء</value>
+  </data>
+  <data name="CustomerService" xml:space="preserve">
+    <value>كل ماهو متعلق بالعملاء</value>
+  </data>
+  <data name="CustomersPurchase" xml:space="preserve">
+    <value>شراء العملاء</value>
+  </data>
+  <data name="Customer_Report" xml:space="preserve">
+    <value>تقارير العميل</value>
+  </data>
+  <data name="Customer_Support" xml:space="preserve">
+    <value>الدعم الفني المباشر</value>
+  </data>
+  <data name="Customizable" xml:space="preserve">
+    <value>مهمة قابلة للتخصيص</value>
+  </data>
+  <data name="Custom_Domain" xml:space="preserve">
+    <value>مجال مخصص</value>
+  </data>
+  <data name="Datasets_secure" xml:space="preserve">
+    <value>تؤمن المساند المعلومات الهامه او الخاصه بك مع افضل خوارزميات التشفير للحفاظ علي حسابك وبياناتك ومعلوماتك الشخصيه امنه.</value>
+  </data>
+  <data name="dd" xml:space="preserve">
+    <value>dd</value>
+  </data>
+  <data name="DeletedNotFound" xml:space="preserve">
+    <value>لم يتم العثور علي الملف</value>
+  </data>
+  <data name="DeletedSuccessfully" xml:space="preserve">
+    <value>تم الحذف بنجاح.</value>
+  </data>
+  <data name="DeleteFailure" xml:space="preserve">
+    <value>حدث خطأ عند الحذف</value>
+  </data>
+  <data name="DeleteFoundRelated" xml:space="preserve">
+    <value>لم يتم الحذف لوجود ملفات مرتبطة بهذا الملف</value>
+  </data>
+  <data name="Delete_data" xml:space="preserve">
+    <value>حذف البيانات</value>
+  </data>
+  <data name="digital_marketing" xml:space="preserve">
+    <value>التسويق الالكتروني</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="EditedSuccessfully" xml:space="preserve">
+    <value>تم التعديل بنجاح.</value>
+  </data>
+  <data name="EditFailure" xml:space="preserve">
+    <value>حدث خطأ فى عملية التعديل ..</value>
+  </data>
+  <data name="Email_template" xml:space="preserve">
+    <value>نموزج للبريد الالكتروني</value>
+  </data>
+  <data name="EMarketers" xml:space="preserve">
+    <value>المسوقين</value>
+  </data>
+  <data name="EMarketer_Users" xml:space="preserve">
+    <value>المسوقين الاكترونين</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>انجليزي</value>
+  </data>
+  <data name="ErpPages" xml:space="preserve">
+    <value>ERP صفحات الـ</value>
+  </data>
+  <data name="error" xml:space="preserve">
+    <value>حدث خطأ أثناء معالجة طلبك.</value>
+  </data>
+  <data name="ErrorLabel" xml:space="preserve">
+    <value>خطأ</value>
+  </data>
+  <data name="Exception" xml:space="preserve">
+    <value>إستثناء</value>
+  </data>
+  <data name="Face_Recognition" xml:space="preserve">
+    <value>تمييز الوجوه</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>الأسئلة الشائعة</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>الميزات</value>
+  </data>
+  <data name="Financial" xml:space="preserve">
+    <value>لاستخدامها ، تخدم القطاع المالي والتجاري</value>
+  </data>
+  <data name="Financial_Accounting" xml:space="preserve">
+    <value>المحاسبة المالية</value>
+  </data>
+  <data name="FixedAssetsProgram" xml:space="preserve">
+    <value>برنامج الاصول الثابتة</value>
+  </data>
+  <data name="Fixed_Assets" xml:space="preserve">
+    <value>ألاصول ثابتة</value>
+  </data>
+  <data name="Flexible_accounting_software" xml:space="preserve">
+    <value>برنامج حسابات مرن</value>
+  </data>
+  <data name="FooterContent" xml:space="preserve">
+    <value>نحن جاهزون دائمًا لمساعدة العملاء و بناء علاقة قوية ولهذا السبب فريق الدعم لدينا موجود دائمًا لمساعدتهم</value>
+  </data>
+  <data name="Free" xml:space="preserve">
+    <value>مجانا</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>انشاء</value>
+  </data>
+  <data name="GlobalAccountProgram" xml:space="preserve">
+    <value>برنامج الحسابات العامة</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>المجموعات</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>مرحبا</value>
+  </data>
+  <data name="help_Customer" xml:space="preserve">
+    <value>نحن مستعدون دائمًا لمساعدة العملاء لبناء علاقة قوية ولهذا السبب فريق الدعم لدينا موجود دائمًا لمساعدتهم</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="HR" xml:space="preserve">
+    <value>الموارد البشرية</value>
+  </data>
+  <data name="HR_Description" xml:space="preserve">
+    <value>يقدم لك البرنامج الداش بورد يحتوي علي مجموعات كبيره من المخططات البيانيه والذي صمم بطريقه انحرافيه تسمح للمدارء بمراقبه الاعمال ومعرفه النتائج واتخاذ القرارات بالوقت المناسب</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>استيراد/ تصدير البيانات للطالب</value>
+  </data>
+  <data name="Integrated_data_security" xml:space="preserve">
+    <value>امن متكامل للبيانات</value>
+  </data>
+  <data name="interchangable" xml:space="preserve">
+    <value>يقدم لك هذا البرنامج نظام متجر التسويق الالكتروني مما يساعدك علي سهوله عرض مشروعك بكامل عبر التسويق الالكتروني</value>
+  </data>
+  <data name="inventory" xml:space="preserve">
+    <value>المخزون</value>
+  </data>
+  <data name="InventoryManagementProgram" xml:space="preserve">
+    <value>برنامج اداره المخزون</value>
+  </data>
+  <data name="invoices" xml:space="preserve">
+    <value>سهوله زياده الاصناف ويقوم بالترحيل اللي المخازن والحسابات العامه والارباح وحسابات العملاء
+والموردين وفتح اكثر من مخزن واكثر من فرع ولكل فرع له اسعار خاصه منصله عن باقي
+الفروع وعدد لا محدود من الاصناف بجميع اسعارها ومواصفاتها والتحكم الكامل في المخزون
+ومعرفه كل فرع بالاصناف اللازمه</value>
+  </data>
+  <data name="IPAdress" xml:space="preserve">
+    <value>عنوان IP</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>اللغة</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>موقعنا</value>
+  </data>
+  <data name="lockedAccount" xml:space="preserve">
+    <value>تم قفل هذا الحساب ، يرجى المحاولة مرة أخرى لاحقًا.</value>
+  </data>
+  <data name="Lockedout" xml:space="preserve">
+    <value>تم الاغلاق</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>الدخول</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>خروج</value>
+  </data>
+  <data name="Manage" xml:space="preserve">
+    <value>الإدارة</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>تاريخ التعديل</value>
+  </data>
+  <data name="Module" xml:space="preserve">
+    <value>النمازج</value>
+  </data>
+  <data name="ModulePages" xml:space="preserve">
+    <value>ربط الصفحات بالنمازج</value>
+  </data>
+  <data name="Modules" xml:space="preserve">
+    <value>الوحدات</value>
+  </data>
+  <data name="More_than" xml:space="preserve">
+    <value>ما نقوم به هو توفير برامج عالية الجودة وهي سهلة</value>
+  </data>
+  <data name="NotActivatedCustomer" xml:space="preserve">
+    <value>العملاء الغير مفعلين</value>
+  </data>
+  <data name="notfound" xml:space="preserve">
+    <value>لايوجد</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>إشعار بإنشاء شركة جديدة</value>
+  </data>
+  <data name="One_Microsoft_Way" xml:space="preserve">
+    <value>طريق ميكروسوفت الاول</value>
+  </data>
+  <data name="OnlineTraing" xml:space="preserve">
+    <value>تدريب أونلاين</value>
+  </data>
+  <data name="Opening_Hours" xml:space="preserve">
+    <value>ساعات العمل</value>
+  </data>
+  <data name="Operations" xml:space="preserve">
+    <value>عمليات</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>الرقم السرى</value>
+  </data>
+  <data name="Personal_message" xml:space="preserve">
+    <value>رسالة شخصية</value>
+  </data>
+  <data name="PersonnelManagementSystem" xml:space="preserve">
+    <value>نظام اداره الشؤن الموظفين</value>
+  </data>
+  <data name="Place" xml:space="preserve">
+    <value>الموقع</value>
+  </data>
+  <data name="pm" xml:space="preserve">
+    <value>مساءا</value>
+  </data>
+  <data name="PointOfSaleManagementSystem" xml:space="preserve">
+    <value>نظام اداره نقاط البيع</value>
+  </data>
+  <data name="POS_Management" xml:space="preserve">
+    <value>اداره نقاط البيع</value>
+  </data>
+  <data name="POS_Management_Software" xml:space="preserve">
+    <value>نظام اداره نقاط البيع يعمل هذا البرنامج علي البيع التجزئه ويتميز هذا البرنامج المخصص لهذا البيع بانه سهل جدا ويمكن استخدامه بحسب نشاط ونوع اي منشاه ويتعامل مع اجهزه المسح الضوئي لقراءه الباركود الخاص ويتوافق مع جميع انظمه البيع والكاشير</value>
+  </data>
+  <data name="Premium_Template" xml:space="preserve">
+    <value>نموزج مميز</value>
+  </data>
+  <data name="price" xml:space="preserve">
+    <value>* سعر المستخدم / الشهر</value>
+  </data>
+  <data name="Pricing" xml:space="preserve">
+    <value>الأسعار</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>طباعة معلومات ملف تعريف الطالب</value>
+  </data>
+  <data name="Print_question" xml:space="preserve">
+    <value>طباعة سؤال / مهمة / ورقة عمل</value>
+  </data>
+  <data name="Print_User_Profile" xml:space="preserve">
+    <value>طباعة ملف تعريف المستخدم</value>
+  </data>
+  <data name="Print_Worksheet" xml:space="preserve">
+    <value>طباعة ورقة عمل</value>
+  </data>
+  <data name="Pro" xml:space="preserve">
+    <value>احترافي</value>
+  </data>
+  <data name="Products" xml:space="preserve">
+    <value>المنتجات</value>
+  </data>
+  <data name="ProjectPages" xml:space="preserve">
+    <value>محتوي الموقع</value>
+  </data>
+  <data name="Puposes" xml:space="preserve">
+    <value>أنظمتنا هى الخيار الصحيح لأغراض كثيرة مثل: المحاسبة،الموارد البشرية والعديد من المجالات الأخرى.</value>
+  </data>
+  <data name="Questions" xml:space="preserve">
+    <value>اي استفسارات ؟</value>
+  </data>
+  <data name="Question_analysis" xml:space="preserve">
+    <value>تحليل السؤال</value>
+  </data>
+  <data name="Redmond" xml:space="preserve">
+    <value>ريدموند</value>
+  </data>
+  <data name="Reference_link" xml:space="preserve">
+    <value>رابط مرجعي</value>
+  </data>
+  <data name="regardless_volume" xml:space="preserve">
+    <value>قد وضعت معايير السهوله والسرعه للسحابه الالكترونيه الخاصه بالمساند بغض النظر عن حجم المعاملات .</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>التسجيل</value>
+  </data>
+  <data name="RegisteredCount" xml:space="preserve">
+    <value>عدد التسجيلات</value>
+  </data>
+  <data name="Reports" xml:space="preserve">
+    <value>التقارير</value>
+  </data>
+  <data name="Reports_Description" xml:space="preserve">
+    <value>يساعدك هذا البرنامج علي التقارير اللازمه وسهله لاي مستخدم يريد عمل تقارير بالقوائم اللازمه لبيانات مع شعارك الخاص</value>
+  </data>
+  <data name="Roles_Admin" xml:space="preserve">
+    <value>ادارة الادوار</value>
+  </data>
+  <data name="Save_time" xml:space="preserve">
+    <value>موفر للوقت</value>
+  </data>
+  <data name="Schedule_management" xml:space="preserve">
+    <value>إدارة الجدول الزمني</value>
+  </data>
+  <data name="sector" xml:space="preserve">
+    <value>في كل دولة في العالم.</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>ضبط</value>
+  </data>
+  <data name="Show_Comparison_Table" xml:space="preserve">
+    <value>عرض جدول المقارنة</value>
+  </data>
+  <data name="SOFTWARE_SOLUTION" xml:space="preserve">
+    <value>للحلول البرمجية</value>
+  </data>
+  <data name="Standards" xml:space="preserve">
+    <value>قد وضعت معايير السهوله والسرعه للسحابه الالكترونيه الخاصه بالمساند بغض النظر عن حجم المعاملات.</value>
+  </data>
+  <data name="streat" xml:space="preserve">
+    <value>المنصورة-شارع النخلة</value>
+  </data>
+  <data name="Subjects_management" xml:space="preserve">
+    <value>إدارة الموضوعات</value>
+  </data>
+  <data name="subscribe_now" xml:space="preserve">
+    <value>اشترك الان</value>
+  </data>
+  <data name="Sunday_Thursday" xml:space="preserve">
+    <value>الاحد-الخميس</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>الدعم الفني</value>
+  </data>
+  <data name="Support_Team" xml:space="preserve">
+    <value>فريق الدعم الفني المباشر لمساعده عملائنا حيث خصصت الشركه فريق من المحترفين قادر علي مساعده العملاء والاجابه علي استفسارهم</value>
+  </data>
+  <data name="Task" xml:space="preserve">
+    <value>المهمة</value>
+  </data>
+  <data name="Teacher_management" xml:space="preserve">
+    <value>المستخدم (إدارة الطلاب والمعلمين)</value>
+  </data>
+  <data name="TechTouch" xml:space="preserve">
+    <value>تك تاتش</value>
+  </data>
+  <data name="TechToutch" xml:space="preserve">
+    <value>شركة تك تاتش للبرمجيات</value>
+  </data>
+  <data name="Tech_Touch_Company" xml:space="preserve">
+    <value>لشركة تك تاتش 2020</value>
+  </data>
+  <data name="Ticket_added_successfully" xml:space="preserve">
+    <value>تم اضافة الشكوي بنجاح</value>
+  </data>
+  <data name="Ticket_Reports" xml:space="preserve">
+    <value>تقارير عن الشكاوي</value>
+  </data>
+  <data name="Transaction" xml:space="preserve">
+    <value>*عملية تجارية</value>
+  </data>
+  <data name="TransactionDate" xml:space="preserve">
+    <value>تاريخ العملية</value>
+  </data>
+  <data name="TrialFree" xml:space="preserve">
+    <value>تجربة مجانية</value>
+  </data>
+  <data name="unexpected_error" xml:space="preserve">
+    <value>لقد حدث خطأ غير متوقع. يرجى الاتصال بمسؤول النظام.</value>
+  </data>
+  <data name="Unlimited_Users" xml:space="preserve">
+    <value>عدد غير محدود من المستخدمين</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>المستخدم</value>
+  </data>
+  <data name="UserGroups" xml:space="preserve">
+    <value>مجموعات المستخدمين</value>
+  </data>
+  <data name="UserMessage" xml:space="preserve">
+    <value>رسالة المستخدم</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>إسم المستخدم</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>المستخدمين</value>
+  </data>
+  <data name="Users_Admin" xml:space="preserve">
+    <value>إدارة المستخدمين</value>
+  </data>
+  <data name="Vedios" xml:space="preserve">
+    <value>الفيديوهات</value>
+  </data>
+  <data name="visit_us" xml:space="preserve">
+    <value>زورنا</value>
+  </data>
+  <data name="VistorsCount" xml:space="preserve">
+    <value>عدد الزوار</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>مرحبا بكم فى موقع شركة تك تاتش للتكنولوجيا. اختيارك الأفضل لتجد حلول تكنولوجية تساعدك على انجاز أعمالك.</value>
+  </data>
+  <data name="We_Care_Our_Customers" xml:space="preserve">
+    <value>نحن نهتم بعملائنا</value>
+  </data>
+  <data name="With_verification_code" xml:space="preserve">
+    <value>بكود تحقق</value>
+  </data>
+  <data name="Workgroup_task" xml:space="preserve">
+    <value>مهمة مجموعة العمل</value>
+  </data>
+  <data name="Worksheet_Setting" xml:space="preserve">
+    <value>إعداد ورقة العمل</value>
+  </data>
+  <data name="Your_Contact_Page" xml:space="preserve">
+    <value>صفحة الاتصال الخاصة بك.</value>
+  </data>
+</root>
